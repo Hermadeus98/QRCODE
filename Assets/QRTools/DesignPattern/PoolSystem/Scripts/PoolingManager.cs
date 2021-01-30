@@ -35,8 +35,14 @@ namespace QRTools
             }
         }
 
+        /// <summary>
+        /// Use this function to pull an object.
+        /// </summary>
         public IPoolable Pool<T>() where T : MonoBehaviour => Pool<T>(Vector3.zero, Quaternion.identity);
 
+        /// <summary>
+        /// Use this function to pull an object.
+        /// </summary>
         public IPoolable Pool<T>(Vector3 position) where T : MonoBehaviour => Pool<T>(position, Quaternion.identity);
 
         /// <summary>
@@ -80,6 +86,9 @@ namespace QRTools
             return null;
         }
 
+        /// <summary>
+        /// Use this function to push an object.
+        /// </summary>
         public void Push(IPoolable poolable)
         {
             poolable.OnPush();
