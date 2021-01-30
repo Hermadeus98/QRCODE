@@ -1,0 +1,541 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 18363.1316; Version 1909; 64bit' Language: 'en' Physical Memory: 8001 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/quent/Documents/PROJECTS/GIT/QRTools
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52838
+Successfully changed project path to: C:/Users/quent/Documents/PROJECTS/GIT/QRTools
+C:/Users/quent/Documents/PROJECTS/GIT/QRTools
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 27.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/quent/Documents/PROJECTS/GIT/QRTools/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   26.21.14.4193
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002266 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 25.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.164 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000919 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.972 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.5 MB.
+System memory in use after: 56.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1540.
+Total: 2.106400 ms (FindLiveObjects: 0.184100 ms CreateObjectMapping: 0.037000 ms MarkObjects: 1.782600 ms  DeleteObjects: 0.101200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6e520b92ccfc61bcfa21a7bcab8468') in 0.013921 seconds
+  Import took 0.016981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.437892 seconds.
+  path: Assets/QRTools
+  artifactKey: Guid(929fb13e094233f42a28bb1e28a39d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QRTools using Guid(929fb13e094233f42a28bb1e28a39d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0d958e309e7b8249385cf201371d95') in 0.012079 seconds
+  Import took 0.015328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.820850 seconds.
+  path: Assets/QRTools/DesignPattern
+  artifactKey: Guid(1b21e1255b124ab41bbce8b9e99b0fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QRTools/DesignPattern using Guid(1b21e1255b124ab41bbce8b9e99b0fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114a4077a55e9912d0e45d61ff28fadc') in 0.011358 seconds
+  Import took 0.014642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.457569 seconds.
+  path: Assets/QRTools/DesignPattern/PoolSystem
+  artifactKey: Guid(2ff49711665a56c4aae5279403397e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QRTools/DesignPattern/PoolSystem using Guid(2ff49711665a56c4aae5279403397e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f034a9f855654dc3ad0062fa2a32c170') in 0.011081 seconds
+  Import took 0.014653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.740128 seconds.
+  path: Assets/QRTools/DesignPattern/PoolSystem/Scripts
+  artifactKey: Guid(111ac8ca2ccae874ebb32361be8f2b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QRTools/DesignPattern/PoolSystem/Scripts using Guid(111ac8ca2ccae874ebb32361be8f2b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971069de2e868708fa7862a641df5083') in 0.012940 seconds
+  Import took 0.015574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.345685 seconds.
+  path: Assets/QRTools/DesignPattern/PoolSystem/Scripts/PoolingManager.cs
+  artifactKey: Guid(f1428a61ac3484e49874f4207632115e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QRTools/DesignPattern/PoolSystem/Scripts/PoolingManager.cs using Guid(f1428a61ac3484e49874f4207632115e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba088a3fc66f483bf316b2a71ae675ba') in 0.044314 seconds
+  Import took 0.047424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004235 seconds.
+  path: Assets/QRTools/DesignPattern/PoolSystem/Scripts/PoolingManager.cs
+  artifactKey: Guid(f1428a61ac3484e49874f4207632115e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QRTools/DesignPattern/PoolSystem/Scripts/PoolingManager.cs using Guid(f1428a61ac3484e49874f4207632115e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba088a3fc66f483bf316b2a71ae675ba') in 0.005897 seconds
+  Import took 0.008328 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001004 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.915 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1095 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.5 MB.
+System memory in use after: 56.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1543.
+Total: 2.403600 ms (FindLiveObjects: 0.260300 ms CreateObjectMapping: 0.055900 ms MarkObjects: 2.013000 ms  DeleteObjects: 0.072600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000897 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.928 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1095 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.6 MB.
+System memory in use after: 56.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1545.
+Total: 2.316500 ms (FindLiveObjects: 0.201200 ms CreateObjectMapping: 0.043200 ms MarkObjects: 2.000800 ms  DeleteObjects: 0.069800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.349521 seconds.
+  path: Assets/QRTools/DesignPattern/PoolSystem/Scripts/PoolingManager.cs
+  artifactKey: Guid(f1428a61ac3484e49874f4207632115e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QRTools/DesignPattern/PoolSystem/Scripts/PoolingManager.cs using Guid(f1428a61ac3484e49874f4207632115e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af001a843009fd6a73692afe1496f81e') in 0.006338 seconds
+  Import took 0.008857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.238297 seconds.
+  path: Assets/QRTools/DesignPattern/Singletons
+  artifactKey: Guid(99d47a136600f33449ec1e0a23837afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QRTools/DesignPattern/Singletons using Guid(99d47a136600f33449ec1e0a23837afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50fabb7b50c18f7497627c3a9d142a3f') in 0.012407 seconds
+  Import took 0.015572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.719257 seconds.
+  path: Assets/QRTools/DesignPattern/Singletons/Scripts
+  artifactKey: Guid(5b8bd33f359d6c546bd304cdbfcacf18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QRTools/DesignPattern/Singletons/Scripts using Guid(5b8bd33f359d6c546bd304cdbfcacf18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553a02720a9c2fcf7b0748c5946fb062') in 0.005319 seconds
+  Import took 0.008896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.415164 seconds.
+  path: Assets/QRTools/DesignPattern/Singletons/Scripts/MonobehaviourSingleton.cs
+  artifactKey: Guid(1499aa1eeb163534682c572b2dfbcc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QRTools/DesignPattern/Singletons/Scripts/MonobehaviourSingleton.cs using Guid(1499aa1eeb163534682c572b2dfbcc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c956005dc31460a75bb17e3465cf21d') in 0.016970 seconds
+  Import took 0.021829 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000896 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.087 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1096 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.7 MB.
+System memory in use after: 56.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1548.
+Total: 2.277200 ms (FindLiveObjects: 0.204600 ms CreateObjectMapping: 0.036800 ms MarkObjects: 1.971300 ms  DeleteObjects: 0.062500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001267 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.122 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1096 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.8 MB.
+System memory in use after: 56.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1550.
+Total: 2.420100 ms (FindLiveObjects: 0.181300 ms CreateObjectMapping: 0.053300 ms MarkObjects: 2.117400 ms  DeleteObjects: 0.066600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 506.044194 seconds.
+  path: Assets/QRTools/DesignPattern/Singletons/Scripts/MonoBehaviourSingleton1.cs
+  artifactKey: Guid(1499aa1eeb163534682c572b2dfbcc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QRTools/DesignPattern/Singletons/Scripts/MonoBehaviourSingleton1.cs using Guid(1499aa1eeb163534682c572b2dfbcc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2300fec4b3a6a483e1b88d32abf019') in 0.014362 seconds
+  Import took 0.016903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.775760 seconds.
+  path: Assets/QRTools/DesignPattern/PoolSystem/Scripts/Interfaces
+  artifactKey: Guid(463292bf17816f64e906cd8a85e951cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QRTools/DesignPattern/PoolSystem/Scripts/Interfaces using Guid(463292bf17816f64e906cd8a85e951cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8db454818a9ea395b44cb82abb86a9') in 0.014276 seconds
+  Import took 0.016772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.678302 seconds.
+  path: Assets/QRTools/DesignPattern/PoolSystem/Scripts/Interfaces/Poolables.cs
+  artifactKey: Guid(88949bc265af7904f84db0cbfedaaa35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QRTools/DesignPattern/PoolSystem/Scripts/Interfaces/Poolables.cs using Guid(88949bc265af7904f84db0cbfedaaa35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81fe573bbca3cffcb2706cfcdddf1105') in 0.013335 seconds
+  Import took 0.016679 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000922 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.985 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.9 MB.
+System memory in use after: 56.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1553.
+Total: 2.124400 ms (FindLiveObjects: 0.189200 ms CreateObjectMapping: 0.037600 ms MarkObjects: 1.831000 ms  DeleteObjects: 0.065200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001022 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.919 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.9 MB.
+System memory in use after: 57.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1555.
+Total: 2.066200 ms (FindLiveObjects: 0.201000 ms CreateObjectMapping: 0.032000 ms MarkObjects: 1.762000 ms  DeleteObjects: 0.069600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 134.965756 seconds.
+  path: Assets/QRTools/DesignPattern/PoolSystem/Scripts/Interfaces/Poolables.cs
+  artifactKey: Guid(88949bc265af7904f84db0cbfedaaa35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QRTools/DesignPattern/PoolSystem/Scripts/Interfaces/Poolables.cs using Guid(88949bc265af7904f84db0cbfedaaa35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9be44d5623c9ecfc19970ab22bc9cd') in 0.007776 seconds
+  Import took 0.010845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.280331 seconds.
+  path: Assets/QRTools/DesignPattern/Singletons/Scripts/MonoBehaviourSingleton.cs
+  artifactKey: Guid(1499aa1eeb163534682c572b2dfbcc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QRTools/DesignPattern/Singletons/Scripts/MonoBehaviourSingleton.cs using Guid(1499aa1eeb163534682c572b2dfbcc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d25e5bd272950ca441cad480460190a') in 0.016770 seconds
+  Import took 0.020433 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000898 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.992 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.0 MB.
+System memory in use after: 57.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1557.
+Total: 1.825200 ms (FindLiveObjects: 0.183400 ms CreateObjectMapping: 0.038600 ms MarkObjects: 1.543000 ms  DeleteObjects: 0.059300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.481368 seconds.
+  path: Assets/QRTools/DesignPattern/PoolSystem/Scripts/Interfaces/PoolObject.cs
+  artifactKey: Guid(5181de8bbb76d114fbbd8179090adeec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QRTools/DesignPattern/PoolSystem/Scripts/Interfaces/PoolObject.cs using Guid(5181de8bbb76d114fbbd8179090adeec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc89bbed788f41afae6905cc3e8eecb') in 0.016472 seconds
+  Import took 0.019588 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001178 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.964 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.1 MB.
+System memory in use after: 57.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1560.
+Total: 2.201000 ms (FindLiveObjects: 0.181800 ms CreateObjectMapping: 0.035600 ms MarkObjects: 1.915300 ms  DeleteObjects: 0.066600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000991 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.926 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.2 MB.
+System memory in use after: 57.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1562.
+Total: 2.425000 ms (FindLiveObjects: 0.209700 ms CreateObjectMapping: 0.039900 ms MarkObjects: 2.100100 ms  DeleteObjects: 0.073200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 368.722658 seconds.
+  path: Assets/QRTools/DesignPattern/PoolSystem/Scripts/Interfaces/PoolObject.cs
+  artifactKey: Guid(5181de8bbb76d114fbbd8179090adeec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QRTools/DesignPattern/PoolSystem/Scripts/Interfaces/PoolObject.cs using Guid(5181de8bbb76d114fbbd8179090adeec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3371aed6d8c4c78b7b6e4478fc676374') in 0.007152 seconds
+  Import took 0.010734 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000832 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.883 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.2 MB.
+System memory in use after: 57.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1564.
+Total: 4.348200 ms (FindLiveObjects: 0.200900 ms CreateObjectMapping: 0.038600 ms MarkObjects: 3.924100 ms  DeleteObjects: 0.182200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001127 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.929 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.3 MB.
+System memory in use after: 57.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1566.
+Total: 2.157500 ms (FindLiveObjects: 0.212800 ms CreateObjectMapping: 0.040400 ms MarkObjects: 1.819900 ms  DeleteObjects: 0.082900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001211 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.911 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.4 MB.
+System memory in use after: 57.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1568.
+Total: 2.265200 ms (FindLiveObjects: 0.178700 ms CreateObjectMapping: 0.035900 ms MarkObjects: 1.981800 ms  DeleteObjects: 0.067100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001097 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.111 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.5 MB.
+System memory in use after: 57.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1570.
+Total: 2.426100 ms (FindLiveObjects: 0.182500 ms CreateObjectMapping: 0.032600 ms MarkObjects: 2.143100 ms  DeleteObjects: 0.066300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000960 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.905 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.5 MB.
+System memory in use after: 57.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1572.
+Total: 2.224300 ms (FindLiveObjects: 0.196600 ms CreateObjectMapping: 0.041500 ms MarkObjects: 1.917400 ms  DeleteObjects: 0.067000 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
