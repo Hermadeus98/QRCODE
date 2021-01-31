@@ -11,7 +11,9 @@ namespace GameplayFramework
         public delegate void GameEventDelegate();
         public GameEventDelegate
             OnGameStartCallback,
-            OnGameEndCallback;
+            OnGameEndCallback,
+            OnGamePauseOnCallback,
+            OnGamePauseOffCallback;
 
         public virtual void StartGame()
         {
@@ -21,6 +23,16 @@ namespace GameplayFramework
         public virtual void EndGame()
         {
             OnGameEndCallback?.Invoke();
+        }
+
+        public virtual void PauseOn()
+        {
+            OnGamePauseOnCallback?.Invoke();
+        }
+
+        public virtual void PauseOff()
+        {
+            OnGamePauseOffCallback?.Invoke();
         }
     }
 }
