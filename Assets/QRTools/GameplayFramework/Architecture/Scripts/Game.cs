@@ -6,31 +6,31 @@ using QRTools.Singletons;
 
 namespace GameplayFramework
 {
-    public class Game : MonoBehaviourSingleton<Game>
+    public static class Game
     {
         public delegate void GameEventDelegate();
-        public GameEventDelegate
+        public static GameEventDelegate
             OnGameStartCallback,
             OnGameEndCallback,
             OnGamePauseOnCallback,
             OnGamePauseOffCallback;
 
-        public virtual void StartGame()
+        public static void StartGame()
         {
             OnGameStartCallback?.Invoke();
         }
 
-        public virtual void EndGame()
+        public static void EndGame()
         {
             OnGameEndCallback?.Invoke();
         }
 
-        public virtual void PauseOn()
+        public static void PauseOn()
         {
             OnGamePauseOnCallback?.Invoke();
         }
 
-        public virtual void PauseOff()
+        public static void PauseOff()
         {
             OnGamePauseOffCallback?.Invoke();
         }

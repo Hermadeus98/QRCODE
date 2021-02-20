@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace GameplayFramework
 {
-    public class GFMonobehaviour : MonoBehaviour
+    public class GF_Monobehaviour : MonoBehaviour
     {
         protected virtual void OnEnable()
         {
-            Game.Instance.OnGameStartCallback += OnGameStart;
-            Game.Instance.OnGameEndCallback += OnGameEnd;
-            Game.Instance.OnGamePauseOnCallback += OnGamePauseOn;
-            Game.Instance.OnGamePauseOffCallback += OnGamePauseOff;
+            Game.OnGameStartCallback += OnGameStart;
+            Game.OnGameEndCallback += OnGameEnd;
+            Game.OnGamePauseOnCallback += OnGamePauseOn;
+            Game.OnGamePauseOffCallback += OnGamePauseOff;
         }
 
         protected virtual void OnDisable()
         {
-            Game.Instance.OnGameStartCallback -= OnGameStart;
-            Game.Instance.OnGameEndCallback -= OnGameEnd;
-            Game.Instance.OnGamePauseOnCallback -= OnGamePauseOn;
-            Game.Instance.OnGamePauseOffCallback -= OnGamePauseOff;
+            Game.OnGameStartCallback -= OnGameStart;
+            Game.OnGameEndCallback -= OnGameEnd;
+            Game.OnGamePauseOnCallback -= OnGamePauseOn;
+            Game.OnGamePauseOffCallback -= OnGamePauseOff;
         }
 
         private void Start() => OnStart();
