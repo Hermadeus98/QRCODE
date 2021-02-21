@@ -8,28 +8,32 @@ namespace GameplayFramework
     {
         protected virtual void OnEnable()
         {
-            Game.OnGameStartCallback += OnGameStart;
-            Game.OnGameEndCallback += OnGameEnd;
-            Game.OnGamePauseOnCallback += OnGamePauseOn;
-            Game.OnGamePauseOffCallback += OnGamePauseOff;
+            GF_Game.OnGameStartCallback += OnGameStart;
+            GF_Game.OnGameEndCallback += OnGameEnd;
+            GF_Game.OnGamePauseOnCallback += OnGamePauseOn;
+            GF_Game.OnGamePauseOffCallback += OnGamePauseOff;
         }
 
         protected virtual void OnDisable()
         {
-            Game.OnGameStartCallback -= OnGameStart;
-            Game.OnGameEndCallback -= OnGameEnd;
-            Game.OnGamePauseOnCallback -= OnGamePauseOn;
-            Game.OnGamePauseOffCallback -= OnGamePauseOff;
+            GF_Game.OnGameStartCallback -= OnGameStart;
+            GF_Game.OnGameEndCallback -= OnGameEnd;
+            GF_Game.OnGamePauseOnCallback -= OnGamePauseOn;
+            GF_Game.OnGamePauseOffCallback -= OnGamePauseOff;
         }
 
+        private void Awake() => OnAwake();
         private void Start() => OnStart();
+        private void Update() => OnUpdate();
 
-        public virtual void OnGameStart() { }
-        public virtual void OnGameEnd() { }
+        protected virtual void OnGameStart() { }
+        protected virtual void OnGameEnd() { }
 
-        public virtual void OnGamePauseOn() { }
-        public virtual void OnGamePauseOff() { }
+        protected virtual void OnGamePauseOn() { }
+        protected virtual void OnGamePauseOff() { }
 
-        public virtual void OnStart() { }
+        protected virtual void OnAwake() { }
+        protected virtual void OnStart() { }
+        protected virtual void OnUpdate() { }
     }
 }

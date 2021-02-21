@@ -6,10 +6,10 @@ using QRTools.Singletons;
 
 namespace GameplayFramework
 {
-    public static class Game
+    public static class GF_Game
     {
-        public delegate void GameEventDelegate();
-        public static GameEventDelegate
+        public delegate void GF_GameEventDelegate();
+        public static GF_GameEventDelegate
             OnGameStartCallback,
             OnGameEndCallback,
             OnGamePauseOnCallback,

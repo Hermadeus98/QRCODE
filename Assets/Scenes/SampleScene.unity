@@ -139,7 +139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &66086551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -548,6 +548,140 @@ Transform:
   m_Father: {fileID: 235603335}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1239051269
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1239051271}
+  - component: {fileID: 1239051270}
+  - component: {fileID: 1239051272}
+  - component: {fileID: 1239051273}
+  m_Layer: 0
+  m_Name: Inputs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1239051270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239051269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02ba77e26d2db2f4b97e86c74b1ec244, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: 
+  GF_INPUT_EVENT: 0
+  playerIndex: 1
+  GF_InputType: 3
+  keyboardKeyCode: 97
+  XBOXControllerKeyCode: 330
+  OnDown:
+    m_PersistentCalls:
+      m_Calls: []
+  OnUp:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCurrent:
+    m_PersistentCalls:
+      m_Calls: []
+  timeBetweenTwoClick: 2
+  OnMultiClick:
+    m_PersistentCalls:
+      m_Calls: []
+  clickCount: 2
+  longClickTime: 0.5
+  OnLongClick:
+    m_PersistentCalls:
+      m_Calls: []
+  OnLongClickPassed:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &1239051271
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239051269}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1239051272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239051269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02ba77e26d2db2f4b97e86c74b1ec244, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: 
+  GF_INPUT_EVENT: 0
+  playerIndex: 2
+  GF_InputType: 0
+  keyboardKeyCode: 98
+  XBOXControllerKeyCode: 331
+  OnDown:
+    m_PersistentCalls:
+      m_Calls: []
+  OnUp:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCurrent:
+    m_PersistentCalls:
+      m_Calls: []
+  timeBetweenTwoClick: 0.2
+  OnMultiClick:
+    m_PersistentCalls:
+      m_Calls: []
+  clickCount: 2
+  longClickTime: 0.5
+  OnLongClick:
+    m_PersistentCalls:
+      m_Calls: []
+  OnLongClickPassed:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1239051273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239051269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73abba7eb7474b842a8a3628583e9317, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: 
+  GF_INPUT_EVENT: 0
+  playerIndex: 1
+  GF_AxisType: 0
+  keyboardKeyCodePositive: 97
+  keyboardKeyCodeNegative: 100
+  axisName: Horizontal
+  OnAxisChange:
+    m_PersistentCalls:
+      m_Calls: []
+  invert: 0
 --- !u!1 &1305233619
 GameObject:
   m_ObjectHideFlags: 0

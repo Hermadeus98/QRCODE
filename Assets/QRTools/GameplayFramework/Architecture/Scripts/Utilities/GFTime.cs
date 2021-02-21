@@ -7,7 +7,7 @@ namespace GameplayFramework
     /// <summary>
     /// Manage delta time of the game.
     /// </summary>
-    public static class GFTime
+    public static class GF_Time
     {
         /// <summary>
         /// Delta time of Unity.
